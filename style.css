@@ -43,13 +43,13 @@ body.dark-mode {
     --surface: #15171b;
     --surface-2: #202328;
 
-    --text: #000000;
-    --text-soft: #292727;
+    --text: #f4f4f4;
+    --text-soft: #dddddd;
 
     --muted: #a0a0a0;
     --border: #303238;
 
-    --dark-section: #555e70;
+    --dark-section: #08090b;
     --dark-border: #292b30;
 }
 
@@ -113,8 +113,8 @@ img {
     width: 100%;
     max-width: var(--container);
 
-    margin-left: 50px;
-    margin-right: -10px;
+    margin-left: auto;
+    margin-right: auto;
 
     padding-left: 30px;
     padding-right: 30px;
@@ -127,9 +127,10 @@ img {
 
 .navbar {
 
-    position: absolute;
+    position: fixed;
 
     top: 0;
+    left: 0;
 
     width: 100%;
 
@@ -165,7 +166,6 @@ img {
 
     align-items: center;
     justify-content: space-between;
-    left: -40%;
 }
 
 
@@ -186,7 +186,6 @@ img {
     font-size: 20px;
 
     font-weight: 700;
-    left: -100px;
 }
 
 .logo>span:first-child {
